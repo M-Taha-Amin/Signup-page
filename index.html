@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet" />
+
+    <title>Sign up Page</title>
+  </head>
+  <body class="poppins-regular">
+    <main>
+      <div class="image-container">
+        <img src="images/logo.svg" alt="logo" class="mobile-logo" />
+        <img
+          src="images/illustration.svg"
+          alt="illustration"
+          class="illustration" />
+      </div>
+      <div class="content">
+        <img src="images/logo.svg" alt="logo" class="desktop-logo" />
+        <h1 class="poppins-semibold heading">Create Account</h1>
+        <form>
+          <div class="form-control">
+            <label for="name-input" class="poppins-medium">Full Name</label>
+            <div class="input-container">
+              <img src="images/user.svg" alt="user-svg" class="input-image" />
+              <input
+                type="text"
+                class="input"
+                id="name-input"
+                placeholder="Enter Full Name" />
+            </div>
+          </div>
+          <div class="form-control">
+            <label for="email-input" class="poppins-medium">Email</label>
+            <div class="input-container">
+              <img src="images/mail.svg" alt="mail-svg" class="input-image" />
+              <input
+                type="email"
+                class="input"
+                id="email-input"
+                placeholder="Enter Your Email" />
+            </div>
+          </div>
+          <div class="form-control">
+            <label for="password-input" class="poppins-medium">Password</label>
+            <div class="input-container">
+              <img src="images/lock.svg" alt="lock-svg" class="input-image" />
+              <input
+                type="password"
+                class="input"
+                id="password-input"
+                placeholder="Enter Your Password" />
+            </div>
+          </div>
+          <div class="form-submit">
+            <input type="submit" value="Sign-Up" class="sign-up-btn" />
+          </div>
+        </form>
+        <div class="or-divider">-OR-</div>
+        <div class="socials-container">
+          <div class="social">
+            <img src="images/google.svg" alt="google-icon" />
+          </div>
+          <div class="social">
+            <img src="images/facebook.svg" alt="facebook-icon" />
+          </div>
+          <div class="social">
+            <img src="images/apple.svg" alt="apple-icon" />
+          </div>
+        </div>
+        <p class="login-cto">
+          Already have an account?
+          <span class="login-text poppins-bold">Login</span>
+        </p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
